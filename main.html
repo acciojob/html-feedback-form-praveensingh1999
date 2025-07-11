@@ -8,6 +8,22 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Feedback Form</h1>
+	<form action="/submit" method='post'>
+		<label>Name *
+		<input id='name' type='text' required minlength="3" maxlength="50"></label>
+		<br>
+		<label >Portfolio *
+		<input id='portfolio' type="url" required>
+		</label>
+		<br>
+		<label>Favorite Color*
+		<input type='color' id="favColor" required></label>
+		<br>
+		<label>Likeness*
+		<input type="range" id="likeness" required min = "1" max='100'></label>
+<br>		<button type="submit"  >Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
